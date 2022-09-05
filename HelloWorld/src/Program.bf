@@ -10,7 +10,7 @@ namespace HelloWorld
 		// Print a basic message.
         private static void Main()
         {
-            Console.WriteLine("What am I doing with my life?");
+            Console.WriteLine("Hello, World!");
 			Console.ReadLine(String.Empty); // <- Probably the wrong way of doing it in B, but I don't care.
         }
     }
