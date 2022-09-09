@@ -10,8 +10,10 @@ namespace HelloWorld
 		// Print a basic message.
         private static void Main()
         {
+			Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Hello, World!");
-			Console.ReadLine(String.Empty); // <- Probably the wrong way of doing it in B, but I don't care.
+			Console.WriteLine("Current Time is: {}", DateTime.Now);
+			Console.ReadLine(scope .());
         }
     }
 }
